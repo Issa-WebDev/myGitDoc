@@ -34,7 +34,19 @@ rm -rf .git
 # To display the state of the repository
 git status
 
-# 
+# To add in staging area
+git add text.txt
+git add text.txt textall.txt
+git add *.txt
+git add .
+git add --all
+
+# To record
+git commit
+git commit -m "my first commit"
+git commit -am "stage and commit at the same time"
 ``` 
+
+
 
 
