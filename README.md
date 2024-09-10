@@ -41,7 +41,7 @@ git add *.txt
 git add .
 git add --all
 # list of all file in staging area
-ls-files
+git ls-files
 
 # To record
 git commit
