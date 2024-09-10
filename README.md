@@ -40,10 +40,13 @@ git add text.txt textall.txt
 git add *.txt
 git add .
 git add --all
+# list of all file in staging area
+ls-files
 
 # To record
 git commit
 git commit -m "my first commit"
+# To add all modified file
 git commit -am "stage and commit at the same time"
 ``` 
 
